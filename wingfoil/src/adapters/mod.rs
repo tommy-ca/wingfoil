@@ -12,3 +12,6 @@ pub mod kdb;
 #[cfg(feature = "zmq-beta")]
 #[doc(hidden)]
 pub mod zmq;
+#[cfg(feature = "iceoryx2-beta")]
+#[doc(hidden)]
+pub mod iceoryx2;
