@@ -150,6 +150,11 @@ path = "benches/bfs_vs_dfs/async_streams.rs"
 harness = false
 required-features = ["async"]
 
+[[bench]]
+name = "iceoryx2"
+harness = false
+required-features = ["iceoryx2-beta"]
+
 [[example]]
 name = "zmq_pub"
 path = "examples/messaging/zmq_pub.rs"
